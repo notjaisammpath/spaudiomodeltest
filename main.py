@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 import json
 import matplotlib.pyplot as plt
 
-db = json.loads(db_data.calculate_db("preamble.wav"))
+db = json.loads(db_data.calculate_db("louder.wav"))
 #throw away first and last second
 del db[0][:10]
 del db[0][-10:]

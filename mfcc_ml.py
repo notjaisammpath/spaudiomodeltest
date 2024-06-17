@@ -11,7 +11,7 @@ import seaborn as sns
 
 #training data from TESS - https://tspace.library.utoronto.ca/handle/1807/24487
 
-dataset_dir = "/Users/jaisammpath/Documents/spaudiomodeltest/dataset"
+dataset_dir = "dataset"
 
 features = []
 labels = []
